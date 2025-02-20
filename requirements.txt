@@ -1,0 +1,5 @@
+pyserial==3.5                 # For serial communication with Arduino (if needed)
+pytest==7.2.0                 # For running tests
+requests==2.26.0              # If you need to make HTTP requests
+numpy==1.21.2                 # For numerical operations
+Flask==2.0.1                  # If you're creating a web interface for controlling

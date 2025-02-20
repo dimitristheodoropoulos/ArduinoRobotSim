@@ -1,0 +1,71 @@
+# Ignore build directories
+/build/
+/bin/
+/out/
+
+# Ignore CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore Python virtual environment
+/venv/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.ncb
+*.sln
+*.vcxproj*
+*.vcproj*
+
+# Ignore VSCode settings (except c_cpp_properties.json)
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+
+# Ignore compiled binaries and libraries
+*.exe
+*.a
+*.so
+*.dll
+*.lib
+*.o
+*.obj
+
+# Ignore logs and databases
+*.log
+*.sqlite
+*.db
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*~
+*.bak
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+*.egg
+dist/
+build/
+pip-log.txt
+
+# Ignore other project-specific files
+*.env
+*.env.local
+*.env.development
+*.env.test
+*.env.production
